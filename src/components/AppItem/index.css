@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.list-item {
+  list-style-type: none;
+  background-color: white;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 16px;
+  width: 45%;
+  max-width: 128px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+@media screen and (min-width: 768px) {
+  .list-item {
+    max-width: 198px;
+    padding-top: 24px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+.item-logo {
+  width: 100px;
+}
+.item-heading {
+  color: #1e293b;
+  font-family: 'Bree Serif';
+}
